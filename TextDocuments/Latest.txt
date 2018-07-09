@@ -1,0 +1,19 @@
+==========================Enterprise=====================================
+az login --service-principal --username 791524b7-fcef-4cbc-8423-6852c6abc2c2 --password vgybyySMJFJoRvI7qihFTW5zoZ0opkpaUKmReMPSilc= --tenant 5a6c876c-f971-4b14-91e5-b14f89bb031d
+
+az functionapp deployment source config-zip -g HME -n hmecloudapp --src "C:\Users\nous-cicd\deployment.zip"
+
+For /F "tokens=1* delims==" %A IN (env) DO ( az functionapp config appsettings set --name Nuthan --resource-group HME --settings %A=%B)
+
+az functionapp config appsettings set --name Nuthan --resource-group HME --settings Blue=40
+az webapp config appsettings set -g MyResourceGroup -n MyUniqueApp --settings WEBSITE_NODE_DEFAULT_VERSION=6.9.1
+============================SLV_Cloud==================================
+az login --service-principal --username fa46968c-e902-49fe-bde4-b518af6d7527 --password BsPaH7WLAPtUP5YiMvlQ3PLJmqzqbmsuU+pt9rFQEvE= --tenant b97d32e7-23a5-44d7-b442-c85e6f03d962
+
+az functionapp deployment source config-zip -g HME.Dev -n hme-dev-public-cloud-func --src "C:\Users\nous-cicd\deployment.zip"
+
+hme-cicd-webserviceprincipal
+Application ID: fa46968c-e902-49fe-bde4-b518af6d7527
+Object ID: bb25b2aa-f01d-4018-84df-3de98edc1367
+Password: BsPaH7WLAPtUP5YiMvlQ3PLJmqzqbmsuU+pt9rFQEvE=
+

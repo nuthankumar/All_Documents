@@ -1,9 +1,4 @@
-8dce86d8882e7850e4b1c6161e52be1f212c581a
-
-
 nuthankumarkb@nousinfo.com
-
-http://192.168.30.63/
 
 https://dev.mysql.com/doc/refman/8.0/en/caching-sha2-pluggable-authentication.html
 https://www.atlassian.com/git/tutorials/install-git
