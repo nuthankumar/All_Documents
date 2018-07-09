@@ -1,0 +1,3 @@
+#!/bin/sh
+curl --user Nuthan:7a1f7abc1da30ca01e36e0ea469aaea2 -s http://localhost:8080/job/webhookTrail/build?token=webhookTrial6789
+exec "jenkins build from webhook"
