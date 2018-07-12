@@ -31,15 +31,6 @@ sonar.dynamicAnalysis=reuseReports
 sonar.javascript.jstest.reportsPath=reports
 sonar.javascript.lcov.reportPath=reports/coverage.lcov
 
-JAVA END TASK COMMANDS
-taskkill /f /im jqs.exe
-taskkill /f /im javaw.exe
-taskkill /f /im java.exe
-
-NETSTAT COMMANDS
-netstat -an |find /i "listening"
-netstat -a -n -o
-taskkill /f /fi /pid 2712
 
 Nuthan Kumar K B
 Username: nous-nuthan

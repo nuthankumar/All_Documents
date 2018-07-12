@@ -8,19 +8,19 @@ Server: http://104.42.238.90:8080/
 User: nous-cicd
 Password: Nous;123
 
-
+JAVA END TASK COMMANDS
 taskkill /f /im jqs.exe
 taskkill /f /im javaw.exe
 taskkill /f /im java.exe
 
-JAVA
-GIT
-NodeJS
-Sonar
-ZAP
-Katalone Studio
+NETSTAT COMMANDS
+netstat -an |find /i "listening"
+netstat -a -n -o
+taskkill /f /fi /pid 2712
 
-
+taskkill /f /im jqs.exe
+taskkill /f /im javaw.exe
+taskkill /f /im java.exe
 
 #HMECloud Properties
 sonar.jdbc.url=jdbc:mysql://127.0.0.1:3306/sonar?useUnicode=true&characterEncoding=utf8&rewriteBatchedStatements=true&useConfigs=maxPerformance
@@ -32,29 +32,3 @@ sonar.web.context=/
 sonar.path.data=/var/sonarqube/data
 sonar.path.temp=/var/sonarqube/temp
 sonar.web.javaOpts=-server
-
-az ad sp create-for-rbac -n "MyApp" --role contributor \
-                            --scopes /subscriptions/{SubID}/resourceGroups/{ResourceGroup1} \
-                            /subscriptions/{SubID}/resourceGroups/{ResourceGroup2}
-							
-az ad sp create-for-rbac -n "hmecloudwebapp" --role Contributor --scopes /subscriptions/c6677e72-3179-423a-9232-8da42c9e638b/resourceGroups/HME 
-	
-Subscription ID
-c6677e72-3179-423a-9232-8da42c9e638b	
-Client id
-ec8efcdd-b411-462e-96fb-c067ac0ce091
-Client secret
-hbgne8ne2N0Or5pWRdL0tmkqomjndbs36B3SQCHPYhg=					
-Tenant ID
-5a6c876c-f971-4b14-91e5-b14f89bb031d
-if not exist "C:\JenkinWorkspace\azurecopy" mkdir C:\JenkinWorkspace\azurecopy
-XCOPY "C:\Program Files (x86)\Jenkins\workspace\AZCopy\hmecloud" "C:\JenkinWorkspace\azurecopy" /S
-							
-							{
-  "appId": "83ceb011-34de-4a74-a419-c44bb9e84ba2",
-  "displayName": "azureMavenappname",
-  "name": "http://azureMavenappname",
-  "password": "c31653de-15a9-4968-baac-f17e2dcfcf16",
-  "tenant": "5a6c876c-f971-4b14-91e5-b14f89bb031d"
-}
-							

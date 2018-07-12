@@ -12,46 +12,6 @@ git clone username@host:https://github.com/nuthankumar/webhookTrail.git
 
 curl --user Nuthan:7a1f7abc1da30ca01e36e0ea469aaea2 -s http://localhost:8080/job/webhookTrail/build?token=webhookTrial6789
 
-Skip to content
-branch
-
-Search…
-All gists
-GitHub
-New gist
-@nuthankumar 
-1,996
-920 @hofmannsvenhofmannsven/README.md
-Last active 2 hours ago • 
- 
-<script src="https://gist.github.com/hofmannsven/6814451.js"></script>
-  
- Code  Revisions 51  Stars 1996  Forks 920
-My simply Git Cheatsheet
- README.md
-Using Git
-Global Settings
-Related Setup: https://gist.github.com/hofmannsven/6814278
-Related Pro Tips: https://ochronus.com/git-tips-from-the-trenches/
-Interactive Beginners Tutorial: http://try.github.io/
-Git Cheatsheet by GitHub: https://services.github.com/on-demand/downloads/github-git-cheat-sheet/
-Reminder
-Press minus + shift + s and return to chop/fold long lines!
-
-Show folder content: ls -la
-
-Notes
-Do not put (external) dependencies in version control!
-
-Setup
-See where Git is located: which git
-
-Get the version of Git: git --version
-
-Create an alias (shortcut) for git status: git config --global alias.st status
-
-Help
-Help: git help
 
 General
 Initialize Git: git init
