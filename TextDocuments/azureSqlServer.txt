@@ -1,0 +1,9 @@
+========== Create SQL server in azure
+az group create --name practicegroup --location westeurope
+az sql server create --name practiceserver --resource-group practicegroup --location westeurope --admin-user admin --admin-password admin
+az sql server firewall-rule create --resource-group practicegroup --server practiceserver -n AllowYourIp --start-ip-address 0.0.0.0 --end-ip-address 0.0.0.0
+az sql db create --resource-group practicegroup --server practiceserver --name btp --sample-name AdventureWorksLT --service-objective S0
+az group delete --name practicegroup
+
+========== Maven - SQL - Azure
+https://docs.microsoft.com/en-us/azure/sql-database/sql-database-connect-query-java
