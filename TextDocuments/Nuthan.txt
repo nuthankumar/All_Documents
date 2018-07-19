@@ -15,6 +15,7 @@ taskkill /f /im java.exe
 
 NETSTAT COMMANDS
 netstat -an |find /i "listening"
+netstat -an0 |findstr "8080"
 netstat -a -n -o
 taskkill /f /fi /pid 2712
 
@@ -32,3 +33,7 @@ sonar.web.context=/
 sonar.path.data=/var/sonarqube/data
 sonar.path.temp=/var/sonarqube/temp
 sonar.web.javaOpts=-server
+
+NUTHAN124
+NUTHANCREDIT
+
